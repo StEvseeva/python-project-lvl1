@@ -5,4 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: make lint
+      - name: install python
+        uses: actions/setup-python@v2
+      - name: install poetry
+        run: pip install poetry
+      - name: install depences
+        run: make install
+      - name: run linter
+        run: make lint
