@@ -10,3 +10,6 @@
 
 ### Asciinema of calculator game
 [![asciicast](https://asciinema.org/a/7eXYDHPqiXEq5810C4FSul0yO.svg)](https://asciinema.org/a/7eXYDHPqiXEq5810C4FSul0yO)
+
+### Asciinema of gsd game
+[![asciicast](https://asciinema.org/a/kwikbFE3gHoyMbwm0ATDQkRMV.svg)](https://asciinema.org/a/kwikbFE3gHoyMbwm0ATDQkRMV)
