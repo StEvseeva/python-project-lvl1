@@ -13,3 +13,6 @@
 
 ### Asciinema of gsd game
 [![asciicast](https://asciinema.org/a/kwikbFE3gHoyMbwm0ATDQkRMV.svg)](https://asciinema.org/a/kwikbFE3gHoyMbwm0ATDQkRMV)
+
+### Asciinema of progression game
+[![asciicast](https://asciinema.org/a/uPf14SAmZiifb50zOJADmB7h7.svg)](https://asciinema.org/a/uPf14SAmZiifb50zOJADmB7h7)
