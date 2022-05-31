@@ -2,6 +2,7 @@ from brain_games.games.even import start as even_start
 from brain_games.games.calculator import start as calculator_start
 from brain_games.games.gcd import start as gcd_start
 from brain_games.games.progression import start as progression_start
+from brain_games.games.prime import start as prime_start
 import prompt
 
 
@@ -21,6 +22,8 @@ def welcome(game_name):
         print('Find the greatest common divisor of given numbers.')
     elif game_name == 'progression':
         print('What number is missing in the progression?')
+    else:
+        print('Answer "yes" if given number is prime. Otherwise answer "no".')
     return name
 
 
@@ -37,6 +40,8 @@ def game(game_name, name):
             question, right_answer = gcd_start()
         elif game_name == 'progression':
             question, right_answer = progression_start()
+        else:
+            question, right_answer = prime_start()
         print('Question: %s' % question)
         answer = prompt.string('Your answer: ')
         if answer == right_answer:
