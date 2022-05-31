@@ -1,5 +1,6 @@
 from brain_games.games.even import start as even_start
 from brain_games.games.calculator import start as calculator_start
+from brain_games.games.gcd import start as gcd_start
 import prompt
 
 
@@ -15,6 +16,8 @@ def welcome(game_name):
         print('Answer "yes" if the number is even, otherwise answer "no".')
     elif game_name == 'calculator':
         print('What is the result of the expression?')
+    else:
+        print('Find the greatest common divisor of given numbers.')
     return name
 
 
@@ -27,6 +30,8 @@ def game(game_name, name):
             question, right_answer = even_start()
         elif game_name == 'calculator':
             question, right_answer = calculator_start()
+        else:
+            question, right_answer = gcd_start()
         print('Question: %s' % question)
         answer = prompt.string('Your answer: ')
         if answer == right_answer:
