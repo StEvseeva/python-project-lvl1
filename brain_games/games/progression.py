@@ -9,10 +9,12 @@ def start():
     empty_place = number + randint(0, count) * step
     progression = ''
     answer = 'place' + str(empty_place)
+    print(number, end, step, empty_place)
     for number in range(number, end, step):
         if number != empty_place:
             progression += (str(number) + ' ')
         else:
             progression += '.. '
             answer = str(number)
+    print("ANSWER", answer)
     return progression, answer
