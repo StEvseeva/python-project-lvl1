@@ -1,7 +1,8 @@
 from random import randint, choice
 
+DESCRIPTION = 'What is the result of the expression?'
 
-def start():
+def get_question_and_answer():
     a = randint(0, 100)
     b = randint(0, 100)
     sign = choice(['+', '-', '*'])
