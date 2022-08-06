@@ -28,6 +28,8 @@ brain-prime -- запуск игры про простые числа
 2. make build
 3. make package-install
 
+### Asciinema of brain-games installation 
+[![asciicast](https://asciinema.org/a/513008.svg)](https://asciinema.org/a/513008)
 
 ### Asciinema of even game
 [![asciicast](https://asciinema.org/a/512998.svg)](https://asciinema.org/a/512998)
