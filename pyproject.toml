@@ -4,8 +4,14 @@ packages = [
 ]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "hexlet project with simple games"
 authors = ["STEVS"]
+repository = "https://github.com/StEvseeva/python-project-lvl1.git"
+classifiers = [
+    "Framework :: Flake8",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
