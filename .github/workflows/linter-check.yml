@@ -1,4 +1,4 @@
-name: GitHub Actions
+name: linter-check
 on: [push]
 jobs:
   Linter:
