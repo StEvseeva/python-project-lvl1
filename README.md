@@ -17,8 +17,8 @@ brain-prime -- запуск игры про простые числа
 
 ### Requirements
 
-OS Linux
-python 3.6 or higher
+-- OS Linux
+-- python 3.6 or higher
 
 ### INSTALL
 
