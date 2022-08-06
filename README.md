@@ -1,5 +1,5 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/StEvseeva/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/StEvseeva/python-project-lvl1/actions)
+[![hexlet-check](https://github.com/StEvseeva/python-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/StEvseeva/python-project-lvl1/actions/workflows/hexlet-check.yml)
 
 [![GitHub Actions](https://github.com/StEvseeva/python-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/StEvseeva/python-project-lvl1/actions/workflows/github-actions-demo.yml)
 
