@@ -3,6 +3,7 @@ from math import gcd
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
+
 def get_question_and_answer():
     a = randint(1, 100)
     b = randint(1, 100)

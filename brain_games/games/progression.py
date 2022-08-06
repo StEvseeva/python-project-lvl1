@@ -2,6 +2,7 @@ from random import randint
 
 DESCRIPTION = 'What number is missing in the progression?'
 
+
 def get_question_and_answer():
     count = randint(5, 10)
     step = randint(1, 20)
