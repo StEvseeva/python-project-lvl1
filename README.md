@@ -3,7 +3,7 @@
 
 [![linter-check](https://github.com/StEvseeva/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/StEvseeva/python-project-lvl1/actions/workflows/linter-check.yml)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f7e2de7d60fd463fc3bb/maintainability)](https://codeclimate.com/github/StEvseeva/python-project-lvl1/maintainability)
 
 ### DESCRIPTION
 Это небольшой учебный проект с играми, запускаемыми из консоли.
