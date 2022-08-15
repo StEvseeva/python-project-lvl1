@@ -10,4 +10,3 @@ def get_question_and_answer():
     two_numbers = str(first_number) + ' ' + str(second_number)
     gsd_for_numbers = str(gcd(first_number, second_number))
     return two_numbers, gsd_for_numbers
-
