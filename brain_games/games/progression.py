@@ -4,17 +4,12 @@ DESCRIPTION = 'What number is missing in the progression?'
 
 
 def get_question_and_answer():
-    count = randint(5, 10)
+    length = randint(5, 10)
     step = randint(1, 20)
-    number = randint(1, 50)
-    end = number + count * step
-    empty_place = number + randint(0, count) * step
-    progression = ''
-    answer = 'place' + str(empty_place)
-    for number in range(number, end + step, step):
-        if number != empty_place:
-            progression += (str(number) + ' ')
-        else:
-            progression += '.. '
-            answer = str(number)
-    return progression, answer
+    start = randint(1, 50)
+    end = start + length * step
+    empty_place = start + randint(0, length) * step
+    progression = list(map(str, range(start, end+1, step)))
+    missing_number, progression[empty_place] = progression[empty_place], '..'
+    progression = ' '.join(progression)
+    return progression, missing_number
