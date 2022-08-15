@@ -8,7 +8,7 @@ def get_question_and_answer():
     step = randint(1, 20)
     start = randint(1, 50)
     end = start + length * step
-    empty_place = start + randint(0, length) * step
+    empty_place = randint(0, length)
     progression = list(map(str, range(start, end + 1, step)))
     missing_number, progression[empty_place] = progression[empty_place], '..'
     progression = ' '.join(progression)
